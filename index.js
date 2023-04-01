@@ -24,8 +24,8 @@ app.post("/sendEmail", (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "mbandukwala7@gmail.com", // your email address
-      pass: "Baller5253786!!", // your email password
+      user: "", // your email address
+      pass: "", // your email password
     },
   });
 
